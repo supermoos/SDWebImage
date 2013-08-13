@@ -14,6 +14,10 @@
  */
 @interface SDWebImagePrefetcher : NSObject
 
+
+@property (assign, nonatomic) NSUInteger finishedCount;
+
+
 /**
  * Maximum number of URLs to prefetch at the same time. Defaults to 3.
  */

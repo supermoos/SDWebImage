@@ -15,7 +15,6 @@
 @property (strong, nonatomic) NSArray *prefetchURLs;
 @property (assign, nonatomic) NSUInteger requestedCount;
 @property (assign, nonatomic) NSUInteger skippedCount;
-@property (assign, nonatomic) NSUInteger finishedCount;
 @property (assign, nonatomic) NSTimeInterval startedTime;
 @property (copy, nonatomic) void (^completionBlock)(NSUInteger, NSUInteger);
 
