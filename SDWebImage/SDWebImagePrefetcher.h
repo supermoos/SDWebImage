@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "SDWebImageManager.h"
 
+
 /**
  * Prefetch some URLs in the cache for future use. Images are downloaded in low priority.
  */
@@ -16,6 +17,7 @@
 
 
 @property (assign, nonatomic) NSUInteger finishedCount;
+@property (strong, nonatomic) SDWebImageManager *manager;
 
 
 /**
